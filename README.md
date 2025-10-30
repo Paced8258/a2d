@@ -226,7 +226,7 @@ rm anti_todo.db
 - `db.py`: Database initialization and session management
 - `prompts.py`: LLM prompt templates
 - `settings.py`: Configuration and environment variables
-- `seed.py`: Database seeding utilities
+- `chat_terminal.py`: Interactive terminal client for testing the API
 
 ### LangChain Integration
 

@@ -2,31 +2,15 @@
 
 ## Quick Start
 
-### Simple Chat (Recommended for Quick Testing)
-```bash
-python quick_chat.py
-```
-
-**Features:**
-- Auto-creates a session
-- Simple, minimal interface
-- Perfect for prompt testing
-
-**Commands:**
-- Type any message to chat
-- Type `recs` to get AI recommendations
-- Type `quit` or `exit` or `q` to exit
-- Press `Ctrl+C` to exit anytime
-
-### Full Chat (More Features)
+### Interactive Chat Terminal
 ```bash
 python chat_terminal.py
 ```
 
 **Features:**
 - Create custom sessions with different roles
-- All quick_chat features plus more commands
-- Better for exploring different user types
+- Full chat interface with recommendations
+- Perfect for exploring different user types and testing
 
 **Commands:**
 - `/session [role] [industry] [pains]` - Create new session
@@ -38,36 +22,7 @@ python chat_terminal.py
 
 ## Example Usage
 
-### Simple Chat Session
-```bash
-$ python quick_chat.py
-
-🤖 Quick Chat - Anti-To-Do Assistant
-========================================
-✅ Created session: Thread 5
-
-💬 Chat started! Type messages (or 'recs' for recommendations, 'quit' to exit)
-
-You: What should I stop doing to be more productive?
-🤖 Assistant: 1. Stop scheduling unnecessary meetings...
-
-You: Can you be more specific about meetings?
-🤖 Assistant: For a Product Manager, consider stopping...
-
-You: recs
-🎯 Recommendations:
-
-📅 Meetings & Communication
----------------------------
-  1. Stop attending daily standups—use async updates instead
-     💡 Daily standups create context switching overhead...
-     ⏱️  150 min saved, low difficulty
-
-You: quit
-👋 Goodbye!
-```
-
-### Full Chat with Custom Session
+### Chat Session with Custom Role
 ```bash
 $ python chat_terminal.py
 
@@ -130,7 +85,7 @@ You: /recs
 python main.py
 
 # In another terminal, run chat
-python quick_chat.py
+python chat_terminal.py
 ```
 
 ### Chat Freezes or Loops
@@ -183,7 +138,7 @@ curl -X POST http://localhost:8000/recommendations \
 
 3. **Start Chat**
    ```bash
-   python quick_chat.py
+   python chat_terminal.py
    ```
 
 4. **Test & Iterate**
@@ -201,7 +156,7 @@ curl -X POST http://localhost:8000/recommendations \
 ### Fast Iteration Tips
 
 - Keep `prompts.py` open in your editor
-- Use `quick_chat.py` for speed
+- Use `chat_terminal.py` for quick testing
 - Check LangFuse after every major change
 - Test same questions before/after prompt changes
 

@@ -1,18 +1,26 @@
-langchain 
-wikipedia 
-langchain-community 
-langchain-openai
-langchain-anthropic
-python-dotenv
-pydantic
-duckduckgo-search
+# Core framework
 fastapi
 uvicorn
-openai
+
+# Database
 sqlmodel
+
+# LangChain and LLM integration
+langchain
+langchain-openai
+langchain-core
+
+# OpenAI SDK (used by langchain-openai)
+openai
+
+# Configuration
 python-dotenv
-sqlite3
+pydantic
+pydantic-settings
+
+# Optional: LangFuse observability
+langfuse
+
+# Chat terminal client (for testing)
 requests
 typing-extensions
-docker
-langfuse

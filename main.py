@@ -1,40 +1,3 @@
-# from dotenv import load_dotenv
-# from pydantic import BaseModel
-# from langchain_openai import ChatOpenAI
-# from langchain_anthropic import ChatAnthropic
-# from langchain_core.prompts import ChatPromptTemplate
-# from langchain_core.output_parsers import PydanticOutputParser
-# from langchain.agents import create_tool_calling_agent, AgentExecutor
-# # from tools import search_tool, wiki_tool, save_tool
-
-# # loading the environment variables
-# load_dotenv()
-
-# # initializing the model
-# llm = ChatOpenAI(model="gpt-4o-mini")
-# response = llm.invoke("What is the capital of France?")
-# print(response)
-
-
-# # # initializing the prompt template
-# # prompt = ChatPromptTemplate.from_messages(
-# #     [
-# #         (
-# #             "system",
-# #             """
-# #             You are a research assistant that will help generate a research paper.
-# #             Answer the user query and use neccessary tools. 
-# #             Wrap the output in this format and provide no other text\n{format_instructions}
-# #             """,
-# #         ),
-# #         ("placeholder", "{chat_history}"),
-# #         ("human", "{query}"),
-# #         ("placeholder", "{agent_scratchpad}"),
-# #     ]
-# # )
-
-
-
 # main.py — LangChain version
 # Purpose: Keep the same REST surface (/onboard, /recommendations, /chat),
 # but route LLM calls through LangChain (ChatOpenAI + structured JSON parsing).
@@ -44,7 +7,7 @@ from typing import Optional, List, Tuple
 
 from fastapi import FastAPI, Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 from sqlmodel import select
 
 # ---- Local modules (unchanged from your project) ----
