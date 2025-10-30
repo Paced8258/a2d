@@ -1,0 +1,53 @@
+[
+  {
+    "feature_name": "Search Functionality",
+    "description": "Product search feature with filters and sorting",
+    "category": "Core Features",
+    "owner_name": "Jane Doe",
+    "owner_email": "jane@example.com",
+    "team": "Product",
+    "role": "PM",
+    "notes": "Owns search and discovery features"
+  },
+  {
+    "feature_name": "User Authentication",
+    "description": "Login, registration, and session management",
+    "category": "Security",
+    "owner_name": "John Smith",
+    "owner_email": "john@example.com",
+    "team": "Platform",
+    "role": "Tech Lead",
+    "notes": "Security and auth infrastructure"
+  },
+  {
+    "feature_name": "Payment Processing",
+    "description": "Stripe integration for payments",
+    "category": "Monetization",
+    "owner_name": "Sarah Chen",
+    "owner_email": "sarah@example.com",
+    "team": "Payments",
+    "role": "PM",
+    "notes": "All payment-related features"
+  },
+  {
+    "feature_name": "Analytics Dashboard",
+    "description": "User analytics and reporting",
+    "category": "Analytics",
+    "owner_name": "Mike Johnson",
+    "owner_email": "mike@example.com",
+    "team": "Data",
+    "role": "PM",
+    "notes": "Analytics and insights features"
+  },
+  {
+    "feature_name": "Email Notifications",
+    "description": "Transactional and marketing emails",
+    "category": "Communications",
+    "owner_name": "Emily Rodriguez",
+    "owner_email": "emily@example.com",
+    "team": "Growth",
+    "role": "PM",
+    "notes": "Email infrastructure and templates"
+  }
+]
+

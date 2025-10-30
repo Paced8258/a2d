@@ -1,0 +1,36 @@
+# Core framework
+fastapi
+uvicorn[standard]
+
+# Database
+sqlmodel
+sqlalchemy
+
+# LangChain and LLM integration
+langchain
+langchain-openai
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# OpenAI SDK
+openai
+
+# Vector database for RAG
+chromadb
+
+# Configuration
+python-dotenv
+pydantic
+pydantic-settings
+
+# Observability
+langfuse
+
+# Data processing
+requests
+httpx
+
+# Additional utilities
+typing-extensions
+
